@@ -1,13 +1,13 @@
 {
   "uuid": "4145256f-4776-4a0c-a172-31b7a1d82195",
-  "shortName": "Configurable",
-  "longName": "Configurable",
+  "pm_am": "Configurable",
+  "backgroundcolor": "Configurable",
   "companyName": "MakeAwesomeHappen",
   "versionCode": 1,
   "versionLabel": "1.0.0",
   "capabilities": [ "configurable" ],
   "watchapp": {
-    "watchface": false
+    "watchface": true
   },
   "appKeys": {
     "dummy": 0

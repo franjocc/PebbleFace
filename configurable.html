@@ -17,12 +17,16 @@
       <div data-role="content">
 
         <div data-role="fieldcontain">
-          <label for="am-pm">AM/PM:</label>
-          <select name="am-pm" id="am-pm" data-role="slider">
-            <option value="off">Off</option>
-            <option value="on">On</option>
-          </select>
-        </div>
+          <fieldset data-role="controlgroup">
+            <legend>Visible:</legend>
+            <input type="checkbox" name="checkbox-checkbox-ampm" id="checkbox-visible" class="custom" />
+            <label for="checkbox-checkbox-ampm">AM/PM</label>
+            <input type="checkbox" name="checkbox-checkbox-24" id="checkbox-visible" class="custom" />
+            <label for="checkbox-checkbox-24">24 hours</label>
+            <input type="checkbox" name="checkbox-checkbox-dn" id="checkbox-visible" class="custom" />
+            <label for="checkbox-checkbox-dn">Day/Night Text</label>            
+            </fieldset>
+          </div>     
         
         <div data-role="fieldcontain">
           <label for="vibrate">Vibrate Hour o'Clock:</label>
@@ -38,7 +42,15 @@
             <option value="off">Off</option>
             <option value="on">On</option>
           </select>
-        </div>        
+        </div>    
+        
+        <div data-role="fieldcontain">
+          <label for="date">See Date:</label>
+          <select name="date" id="date" data-role="slider">
+            <option value="off">Off</option>
+            <option value="on">On</option>
+          </select>
+        </div>            
         
         <div data-role="fieldcontain">
           <fieldset data-role="controlgroup">
